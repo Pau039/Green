@@ -82,14 +82,22 @@ main{
     overflow-y: auto;
     height: 300px;
     font-family: "Times New Roman", Times, serif;
+    box-shadow: 0 0 10px rgba(228, 77, 38, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgb(228, 114, 38);
+    text-align: center;
 }
 .category{
     cursor: pointer;
     padding: 5px;
     top: 30px;
+    transition: color 0.3s ease-in-out;
 }
  .category:hover{
     background-color: darkgray;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 1); /* Change the glow color to yellow (you can adjust the color as needed) */
+    transition: box-shadow 0.3s ease-in-out;
+    color: #0004ff;
  }
 .range{
     display: flex;
